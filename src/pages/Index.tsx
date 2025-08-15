@@ -13,7 +13,7 @@ export default function Index() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Icon name="Building2" size={32} className="text-blue-600" />
-              <span className="ml-2 text-xl font-bold text-slate-900">СтройЭлит</span>
+              <span className="ml-2 text-xl font-bold text-slate-900">ФасадПро</span>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="text-slate-700 hover:text-blue-600 transition-colors">Главная</a>
@@ -35,12 +35,12 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
-                Современные
-                <span className="text-blue-600 block">фасадные решения</span>
+                Профессиональные
+                <span className="text-blue-600 block">фасадные работы</span>
               </h1>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                Профессиональные строительные и фасадные работы с гарантией качества. 
-                Создаем архитектурные шедевры, которые служат десятилетиями.
+                Специализируемся на монтаже вентилируемых фасадов, утеплении и облицовке. 
+                Превращаем здания в архитектурные шедевры с гарантией 10 лет.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-4">
@@ -86,33 +86,33 @@ export default function Index() {
             {[
               {
                 icon: "Building2",
-                title: "Фасадные работы",
-                description: "Монтаж вентилируемых фасадов, утепление стен, облицовка современными материалами"
-              },
-              {
-                icon: "Hammer",
-                title: "Строительство",
-                description: "Возведение зданий различной сложности от фундамента до кровли"
-              },
-              {
-                icon: "Wrench",
-                title: "Реконструкция",
-                description: "Модернизация и капитальный ремонт существующих сооружений"
+                title: "Вентилируемые фасады",
+                description: "Монтаж современных вентфасадов с керамогранитом, композитными панелями, фиброцементом"
               },
               {
                 icon: "Shield",
-                title: "Гидроизоляция",
-                description: "Защита зданий от влаги современными гидроизоляционными материалами"
+                title: "Утепление фасадов",
+                description: "Мокрое утепление, навесные системы, термопанели с гарантией энергоэффективности"
+              },
+              {
+                icon: "Layers",
+                title: "Облицовка камнем",
+                description: "Натуральный и искусственный камень, клинкерная плитка, декоративная штукатурка"
+              },
+              {
+                icon: "Wrench",
+                title: "Ремонт фасадов",
+                description: "Восстановление, реконструкция и модернизация фасадных систем любой сложности"
               },
               {
                 icon: "Zap",
-                title: "Инженерные системы",
-                description: "Проектирование и монтаж систем отопления, вентиляции, электроснабжения"
+                title: "Остекление фасадов",
+                description: "Панорамное остекление, витражные системы, алюминиевые конструкции"
               },
               {
                 icon: "Award",
-                title: "Сервисное обслуживание",
-                description: "Техническое обслуживание и гарантийный ремонт выполненных работ"
+                title: "Гарантийное обслуживание",
+                description: "Техническое обслуживание фасадных систем и гарантийный ремонт до 10 лет"
               }
             ].map((service, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-slate-200">
@@ -140,8 +140,8 @@ export default function Index() {
             <div>
               <h2 className="text-4xl font-bold text-slate-900 mb-6">О компании</h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                СтройЭлит — ведущая строительная компания с более чем 15-летним опытом работы. 
-                Мы специализируемся на современных фасадных решениях и комплексном строительстве.
+                ФасадПро — специализированная компания с 15-летним опытом в области фасадных работ. 
+                Мы создаем энергоэффективные и эстетичные фасадные решения для любых объектов.
               </p>
               
               <div className="grid sm:grid-cols-2 gap-6 mb-8">
@@ -160,10 +160,10 @@ export default function Index() {
 
               <div className="space-y-4">
                 {[
-                  "Собственная производственная база",
-                  "Сертифицированные материалы и технологии",
-                  "Гарантия на все виды работ",
-                  "Индивидуальный подход к каждому проекту"
+                  "Собственное производство фасадных элементов",
+                  "Сертифицированные фасадные материалы премиум-класса",
+                  "Гарантия на фасадные работы до 10 лет",
+                  "3D-моделирование и дизайн-проекты"
                 ].map((item, index) => (
                   <div key={index} className="flex items-center">
                     <Icon name="CheckCircle" size={20} className="text-green-500 mr-3" />
@@ -275,20 +275,20 @@ export default function Index() {
             <div>
               <div className="flex items-center mb-4">
                 <Icon name="Building2" size={32} className="text-blue-400" />
-                <span className="ml-2 text-xl font-bold">СтройЭлит</span>
+                <span className="ml-2 text-xl font-bold">ФасадПро</span>
               </div>
               <p className="text-slate-400">
-                Профессиональные строительные и фасадные работы с гарантией качества
+                Профессиональные фасадные работы и энергоэффективные решения
               </p>
             </div>
             
             <div>
               <h3 className="font-bold mb-4">Услуги</h3>
               <ul className="space-y-2 text-slate-400">
-                <li>Фасадные работы</li>
-                <li>Строительство</li>
-                <li>Реконструкция</li>
-                <li>Гидроизоляция</li>
+                <li>Вентилируемые фасады</li>
+                <li>Утепление</li>
+                <li>Облицовка</li>
+                <li>Остекление</li>
               </ul>
             </div>
             
@@ -306,14 +306,14 @@ export default function Index() {
               <h3 className="font-bold mb-4">Контакты</h3>
               <div className="space-y-2 text-slate-400">
                 <div>+7 (495) 123-45-67</div>
-                <div>info@stroyelit.ru</div>
+                <div>info@fasadpro.ru</div>
                 <div>Москва, ул. Строительная, 15</div>
               </div>
             </div>
           </div>
           
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 СтройЭлит. Все права защищены.</p>
+            <p>&copy; 2024 ФасадПро. Все права защищены.</p>
           </div>
         </div>
       </footer>
