@@ -35,12 +35,12 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
-                Профессиональные
-                <span className="text-blue-600 block">фасадные работы</span>
+                Производство
+                <span className="text-blue-600 block">металлокассет</span>
               </h1>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                Специализируемся на монтаже вентилируемых фасадов, утеплении и облицовке. 
-                Превращаем здания в архитектурные шедевры с гарантией 10 лет.
+                Собственное производство и монтаж фасадных металлокассет открытого и закрытого типа. 
+                Создаем современные архитектурные решения с гарантией 15 лет.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-4">
@@ -76,43 +76,43 @@ export default function Index() {
       <section id="services" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-4">Наши услуги</h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Наша продукция</h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              Полный спектр строительных и фасадных работ от проектирования до сдачи объекта
+              Металлокассеты собственного производства для современных фасадных систем
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                icon: "Building2",
-                title: "Вентилируемые фасады",
-                description: "Монтаж современных вентфасадов с керамогранитом, композитными панелями, фиброцементом"
+                icon: "Square",
+                title: "Кассеты закрытого типа",
+                description: "Гладкая поверхность без видимых швов. Толщина 1,0-1,5 мм. Размеры до 1500x6000 мм. Полимерное покрытие."
+              },
+              {
+                icon: "Grid3x3",
+                title: "Кассеты открытого типа",
+                description: "Видимая подконструкция, объемный рельеф. Толщина 0,7-1,2 мм. Стандартные и нестандартные размеры."
+              },
+              {
+                icon: "Palette",
+                title: "Окраска по RAL",
+                description: "Полимерное покрытие любого цвета по каталогу RAL. Матовая, глянцевая, текстурная отделка."
+              },
+              {
+                icon: "Ruler",
+                title: "Нестандартные размеры",
+                description: "Изготовление кассет по индивидуальным размерам и чертежам. Радиусные и сложные формы."
+              },
+              {
+                icon: "Truck",
+                title: "Монтаж под ключ",
+                description: "Проектирование, изготовление подконструкции, монтаж кассет. Собственные монтажные бригады."
               },
               {
                 icon: "Shield",
-                title: "Утепление фасадов",
-                description: "Мокрое утепление, навесные системы, термопанели с гарантией энергоэффективности"
-              },
-              {
-                icon: "Layers",
-                title: "Облицовка камнем",
-                description: "Натуральный и искусственный камень, клинкерная плитка, декоративная штукатурка"
-              },
-              {
-                icon: "Wrench",
-                title: "Ремонт фасадов",
-                description: "Восстановление, реконструкция и модернизация фасадных систем любой сложности"
-              },
-              {
-                icon: "Zap",
-                title: "Остекление фасадов",
-                description: "Панорамное остекление, витражные системы, алюминиевые конструкции"
-              },
-              {
-                icon: "Award",
-                title: "Гарантийное обслуживание",
-                description: "Техническое обслуживание фасадных систем и гарантийный ремонт до 10 лет"
+                title: "Гарантия 15 лет",
+                description: "Гарантия на металлокассеты и монтажные работы. Техническое сопровождение проектов."
               }
             ].map((service, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-slate-200">
@@ -140,8 +140,8 @@ export default function Index() {
             <div>
               <h2 className="text-4xl font-bold text-slate-900 mb-6">О компании</h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                ФасадПро — специализированная компания с 15-летним опытом в области фасадных работ. 
-                Мы создаем энергоэффективные и эстетичные фасадные решения для любых объектов.
+                ФасадПро — ведущий производитель фасадных металлокассет с собственным производством. 
+                15 лет опыта в создании современных металлических фасадных систем для коммерческих и жилых объектов.
               </p>
               
               <div className="grid sm:grid-cols-2 gap-6 mb-8">
@@ -160,10 +160,10 @@ export default function Index() {
 
               <div className="space-y-4">
                 {[
-                  "Собственное производство фасадных элементов",
-                  "Сертифицированные фасадные материалы премиум-класса",
-                  "Гарантия на фасадные работы до 10 лет",
-                  "3D-моделирование и дизайн-проекты"
+                  "Собственная производственная линия металлокассет",
+                  "Высококачественная сталь с полимерным покрытием",
+                  "Автоматизированное производство с контролем качества",
+                  "3D-проектирование и техническое сопровождение"
                 ].map((item, index) => (
                   <div key={index} className="flex items-center">
                     <Icon name="CheckCircle" size={20} className="text-green-500 mr-3" />
@@ -177,8 +177,8 @@ export default function Index() {
               <div className="bg-gradient-to-br from-slate-600 to-blue-600 rounded-2xl p-8 text-white">
                 <Icon name="Users" size={120} className="mx-auto mb-4 opacity-20" />
                 <div className="text-center">
-                  <h3 className="text-2xl font-bold mb-2">Профессиональная команда</h3>
-                  <p className="text-blue-100">Опытные специалисты и современное оборудование</p>
+                  <h3 className="text-2xl font-bold mb-2">Производственная база</h3>
+                  <p className="text-blue-100">Современное оборудование и контроль качества</p>
                 </div>
               </div>
             </div>
@@ -278,17 +278,17 @@ export default function Index() {
                 <span className="ml-2 text-xl font-bold">ФасадПро</span>
               </div>
               <p className="text-slate-400">
-                Профессиональные фасадные работы и энергоэффективные решения
+                Производство и монтаж фасадных металлокассет премиум-качества
               </p>
             </div>
             
             <div>
               <h3 className="font-bold mb-4">Услуги</h3>
               <ul className="space-y-2 text-slate-400">
-                <li>Вентилируемые фасады</li>
-                <li>Утепление</li>
-                <li>Облицовка</li>
-                <li>Остекление</li>
+                <li>Кассеты закрытого типа</li>
+                <li>Кассеты открытого типа</li>
+                <li>Монтаж под ключ</li>
+                <li>Техническое сопровождение</li>
               </ul>
             </div>
             
